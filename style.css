@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+.card {
+    width: 45vw;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50px;
+    background-image: url(https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg);
+    object-fit: cover;
+}
+
+.weatherapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbox{
+    min-height:140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #5DE2EE, #98f6f94d);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#btn{
+    background-color: orange;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+#city{
+    width: 420px;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.0rem;
+}
+.card h1{
+    text-align: center;
+    margin-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 164px;
+    margin-top:32px;
+}
+.p{
+    gap: 10px;
+}
+p{
+    font-size: 1.5rem;
+}
+.humidity img, .wind img{
+    width: 120px;
+}
+.img{
+    flex-direction: column;
+}
+
+#hider{
+    display: none;
+    background-image: linear-gradient(45deg, #5DE2EE, #98f6f94d);
+    height: 70vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="card">
+            <div class="searchbox">
+                <input type="text" id="city" placeholder="Enter your city name" spellcheck="none">
+                <button id="btn">search</button>
+            </div>
+            <div id="hider">
+            <div class="img flex">
+                <img src="clear.png" alt="clear" id="img">
+                <div class="p flex">
+                    <p id="cp">Hyderabad</p>
+                    <p id="temp">22.5</p>
+                </div>
+            </div>
+            <div class="container flex">
+                <div class="humidity">
+                    <img src="humidity.png" alt="humidity" id="img">
+                    <div class="p flex">
+                        <p></p>
+                        <p id="hp">22.55</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <img src="wind.png" alt="wind">
+                    <div class="p flex">
+                        <p></p>
+                        <p id="wp">25</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
